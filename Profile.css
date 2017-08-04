@@ -1,0 +1,80 @@
+
+p {
+  color: 	#81D8D0;
+}
+h2 {
+  color: salmon;
+}
+ol li {
+  color: orange;
+}
+ul li {
+  color: turquoise;
+}
+a {
+  color: pink;
+}
+.school {
+  color: 	#00356B;
+}
+.major {
+  color: salmon;
+}
+div {
+  background-color: gray;
+  border: 5px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 5px;
+  align:center;
+}
+.pink {
+  background-color: pink;
+}
+.blue {
+  background-color: blue;
+}
+span {
+  color: salmon;
+}
+.green {
+  background-color: green;
+}
+body {
+  font-style: italic;
+}
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    font-size: 24px;
+}
+li a {
+  display: block;
+  width: 92px;
+  color: salmon;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-style: italic;
+  background-color: palegreen;
+  height:40px;
+  border:solid;
+
+}
+li a:hover
+{
+  background-color: turquoise;
+  color: white;
+}
+body {
+
+  font-family: "Helvetica", cursive, sans-serif;
+}
+.hidden {
+  display: none;
+}
+.button
+{
+  width: 45px;
+}

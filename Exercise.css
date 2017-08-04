@@ -1,0 +1,29 @@
+span.highlighted {
+  color: red;
+  text-decoration: underline;
+}
+
+.highlighted {
+  color: blue;
+}
+
+h3.highlighted {
+  color: purple;
+}
+
+#real_cool {
+  font-size: 35;
+}
+
+div {
+  background-color: grey;
+}
+
+
+div ul {
+  background-color: purple;
+}
+
+div, ol {
+  background-color: orange;
+}

@@ -1,0 +1,41 @@
+ul {
+  background-color: white;
+  display: block;
+  border: solid;
+  border-style: outset;
+  width: 150px;
+  height:120px;
+}
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: pink;
+  color: gray;
+}
+a {
+  color: green;
+}
+a:visited {
+  color: palegreen;
+}
+img {
+  border-style: outset;
+}
+.name {
+  position: absolute;
+  opacity: 0;
+  display: inline;
+}
+.name:hover {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.35);
+}
+h3 {
+  font-size: 30px;
+  margin: 0;
+  text-align: center;
+  color: black;
+  width: 24%;
+}
+h1 {
+  text-align: center;
+}

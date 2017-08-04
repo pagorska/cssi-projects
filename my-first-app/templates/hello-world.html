@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>hello</title>
+  </head>
+  <style>
+    #name {
+      color: {{ mycolor }};
+    }
+  </style>
+  <body>
+    {% if name == "steve" %}
+    <h1>Yo spratt</h1>
+    {% else %}
+    <h1>{{ greeting }} <span id="name">{{ name }}</span>(with templates)</h1>
+    {% endif %}
+    <form>
+      what's your name? <input name="name" type="text">
+      <br/>
+      what's your favorite color <input name="mycolor" type="text">
+    </br>
+      <input type="submit">
+    </form>
+    <img src="resources/pratt.png">
+  </body>
+</html>

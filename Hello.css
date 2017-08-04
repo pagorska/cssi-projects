@@ -1,0 +1,12 @@
+ol {
+  display: inline-block;
+  color: red;
+}
+ol li {
+    text-decoration: line-through;
+    display: inline-block;
+    color: green;
+    width: 120px;
+    background-color: pink;
+    
+}

@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>froots</title>
+  </head>
+  <body>
+    {% if froot == "rutabaga" %}
+    <h1>rutabaga? that's a dumb froot</h1>
+    {% elif froot == "" %}
+    {% else %}
+    <h1>{{ froot }} is amazing!</h1>
+    {% endif %}
+    <form>
+      what's your favorite fruit/vegetable? <input name="froot" type="text">
+    </br>
+      how much do you like it on a scale of 1 to 136? <input name="numTimes" type="text">
+      <br/>
+      <input type="submit">
+    </form>
+    {% if froot == "rutabaga" %}
+    <h3>have you seen such a froot</h3>
+    <img width="50%" src="http://assets.simplyrecipes.com/wp-content/uploads/2012/11/rutabagas1.jpg">
+    {% else %}
+    <img width="50%" src="resources/cupcake.png">
+    {% endif %}
+    {% if froot == 'rutabaga' %}
+    <ol>
+    {% for i in range(numTimes)%}
+    <li>rutabagas are dumb!!!</li>
+    {% endfor %}
+    {% endif %}
+  </ol>
+  </br>
+  </body>
+</html>
